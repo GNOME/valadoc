@@ -43,6 +43,7 @@ valadoc.vala.stamp: $(valadoc_VALASOURCES)
 	$(VALAC) -C --pkg config --pkg $(VALA_PACKAGE) --pkg gee-1.0 --pkg gmodule-2.0 --vapidir $(top_srcdir)/src/vapi/ --vapidir ../libvaladoc/ --pkg valadoc-1.0 $^
 	touch $@
 
+$(valadoc_VALASOURCES:.vala=.c): valadoc.vala.stamp
 
 EXTRA_DIST = $(valadoc_VALASOURCES)  valadoc.vala.stamp 
 

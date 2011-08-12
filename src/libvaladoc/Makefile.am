@@ -153,6 +153,7 @@ libvaladoc.vala.stamp: $(libvaladoc_la_VALASOURCES)
 	$(VALAC) $(VALAFLAGS) -C -H valadoc-1.0.h --pkg gee-1.0 --pkg $(VALA_PACKAGE) --pkg libgvc --pkg gmodule-2.0 --pkg libgvc --vapidir $(top_srcdir)/src/vapi --pkg config --library valadoc-1.0 --basedir $(top_srcdir)/src/libvaladoc/ --save-temps $^
 	touch $@
 
+valadoc-1.0.h: libvaladoc.vala.stamp
 
 libvaladoc_la_LDFLAGS = -no-undefined
 
@@ -171,13 +172,14 @@ EXTRA_DIST =                         \
 	libvaladoc.vala.stamp        \
 	valadoc-1.0.vapi             \
 	valadoc-1.0.deps             \
+	valadoc-1.0.h                \
 	$(NULL)
 
 
 MAINTAINERCLEANFILES =                        \
+	libvaladoc.vala.stamp                 \
 	valadoc-1.0.vapi                      \
 	valadoc-1.0.h                         \
-	valadoc-1.0.gir                       \
 	$(libvaladoc_la_VALASOURCES:.vala=.c) \
 	$(NULL)
 
