@@ -35,9 +35,9 @@ public class Valadoc.Html.Doclet : Valadoc.Html.BasicDoclet {
 	private const string css_path = "../style.css";
 
 
-	private const string js_path_package = "scripts.js";
-	private const string js_path_wiki = "../scripts.js";
-	private const string js_path = "../scripts.js";
+	private const string js_path_package = "script.js";
+	private const string js_path_wiki = "../script.js";
+	private const string js_path = "../script.js";
 
 	private class IndexLinkHelper : LinkHelper {
 		protected override string? from_wiki_to_package (WikiPage from, Api.Package to) {
@@ -74,7 +74,7 @@ public class Valadoc.Html.Doclet : Valadoc.Html.BasicDoclet {
 	}
 
 	protected virtual string get_icon_directory () {
-		return ".."; // ../images
+		return "../images";
 	}
 
 	public override void process (Settings settings, Api.Tree tree, ErrorReporter reporter) {

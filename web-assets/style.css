@@ -33,7 +33,7 @@ ul.external_link {
 	min-height: 48px;
 	background-position: 6px 0.5em;
 	background-repeat: no-repeat;
-	background-image: url(warning.svg);
+	background-image: url(images/warning.svg);
 }
 
 .main_table {
@@ -223,7 +223,7 @@ div.main_notification_block {
 }
 
 span.main_block_headline {
-	background-image:url(tip.svg);
+	background-image:url(images/tip.svg);
 	background-repeat:no-repeat;
 	background-position:center right;
 	font-weight:bold;
@@ -292,7 +292,7 @@ h3.main_title {
 
 
 .description a.constant, .brief_description a.constant {
-	background-image:url(constant.svg);
+	background-image:url(images/constant.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -300,7 +300,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.namespace, .brief_description a.namespace {
-	background-image:url(namespace.svg);
+	background-image:url(images/namespace.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -308,7 +308,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.struct, .brief_description a.struct {
-	background-image:url(struct.svg);
+	background-image:url(images/struct.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -316,7 +316,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.interface, .brief_description a.interface {
-	background-image:url(interface.svg);
+	background-image:url(images/interface.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -324,7 +324,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.enum, .brief_description a.enum {
-	background-image:url(enum.svg);
+	background-image:url(images/enum.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -332,7 +332,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.errordomain, .brief_description a.errordomain {
-	background-image:url(errordomain.svg);
+	background-image:url(images/errordomain.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -340,7 +340,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.delegate, .brief_description a.delegate {
-	background-image:url(delegate.svg);
+	background-image:url(images/delegate.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -348,7 +348,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.signal, .brief_description a.signal {
-	background-image:url(signal.svg);
+	background-image:url(images/signal.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -356,7 +356,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.field, .brief_description a.field {
-	background-image:url(field.svg);
+	background-image:url(images/field.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -364,7 +364,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.enumvalue, .brief_description a.enumvalue {
-	background-image:url(enumvalue.svg);
+	background-image:url(images/enumvalue.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -372,7 +372,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.errorcode, .brief_description a.errorcode {
-	background-image:url(errorcode.svg);
+	background-image:url(images/errorcode.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -380,7 +380,7 @@ h3.main_title {
 	border:0px;
 }
 .description a.class, .brief_description a.class {
-	background-image:url(class.svg);
+	background-image:url(images/class.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -388,7 +388,7 @@ h3.main_title {
 	border:0px;
 }
 a.abstract_class, .description a.abstract_class, .brief_description a.abstract_class {
-	background-image:url(abstractclass.svg);
+	background-image:url(images/abstractclass.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -397,7 +397,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	font-style: italic;
 }
 .description a.property, .brief_description a.property {
-	background-image:url(property.svg);
+	background-image:url(images/property.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -405,7 +405,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	border:0px;
 }
 .description a.virtual_property, .brief_description a.virtual_property {
-	background-image:url(virtualproperty.svg);
+	background-image:url(images/virtualproperty.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -413,7 +413,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	border:0px;
 }
 .description a.abstract_property, .brief_description a.abstract_property {
-	background-image:url(abstractproperty.svg);
+	background-image:url(images/abstractproperty.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -421,7 +421,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	border:0px;
 }
 .description a.method, .brief_description a.method {
-	background-image:url(method.svg);
+	background-image:url(images/method.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -429,7 +429,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	border:0px;
 }
 .description a.static_method, .brief_description a.static_method {
-	background-image:url(staticmethod.svg);
+	background-image:url(images/staticmethod.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -437,7 +437,7 @@ a.abstract_class, .description a.abstract_class, .brief_description a.abstract_c
 	border:0px;
 }
 a.virtual_method, .description a.virtual_method, .brief_description a.virtual_method {
-	background-image:url(virtualmethod.svg);
+	background-image:url(images/virtualmethod.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -445,7 +445,7 @@ a.virtual_method, .description a.virtual_method, .brief_description a.virtual_me
 	border:0px;
 }
 .description a.abstract_method, .brief_description a.abstract_method {
-	background-image:url(abstractmethod.svg);
+	background-image:url(images/abstractmethod.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -453,7 +453,7 @@ a.virtual_method, .description a.virtual_method, .brief_description a.virtual_me
 	border:0px;
 }
 .description a.creation_method, .brief_description a.creation_method {
-	background-image:url(constructor.svg);
+	background-image:url(images/constructor.svg);
 	display:inline-block;
 	padding-right:17px;
 	background-repeat:no-repeat;
@@ -462,73 +462,73 @@ a.virtual_method, .description a.virtual_method, .brief_description a.virtual_me
 }
 
 .navi_main .errorcode, .navi_inline .errorcode {
-	list-style-image:url(errorcode.svg);
+	list-style-image:url(images/errorcode.svg);
 }
 .navi_main .enumvalue, .navi_inline .enumvalue {
-	list-style-image:url(enumvalue.svg);
+	list-style-image:url(images/enumvalue.svg);
 }
 .navi_main .abstract_class, .navi_inline .abstract_class {
-	list-style-image: url(abstractclass.svg);
+	list-style-image: url(images/abstractclass.svg);
 }
 .navi_main .abstract_method, .navi_inline .abstract_method {
-	list-style-image: url( abstractmethod.svg );
+	list-style-image: url(images/abstractmethod.svg);
 }
 .navi_main .creation_method, .navi_inline .creation_method, .main_list_m {
-	list-style-image: url(constructor.svg);
+	list-style-image: url(images/constructor.svg);
 }
 .navi_main .static_method, .navi_inline .static_method {
-	list-style-image: url(staticmethod.svg);
+	list-style-image: url(images/staticmethod.svg);
 }
 .navi_main .package_index {
-	list-style-image: url(packages.svg);
+	list-style-image: url(images/packages.svg);
 }
 .navi_main .virtual_method, .navi_inline .virtual_method {
-	list-style-image: url(virtualmethod.svg);
+	list-style-image: url(images/virtualmethod.svg);
 }
 .navi_main .errordomain, .navi_inline .errordomain, .main_list_errdom {
-	list-style-image: url(errordomain.svg);
+	list-style-image: url(images/errordomain.svg);
 }
 .navi_main .namespace, .navi_inline .namespace, .main_list_ns {
-	list-style-image: url(namespace.svg);
+	list-style-image: url(images/namespace.svg);
 }
 .navi_main .method, .navi_inline .method {
-	list-style-image: url(method.svg);
+	list-style-image: url(images/method.svg);
 }
 .navi_main .struct, .navi_inline .struct, .main_list_stru {
-	list-style-image: url(struct.svg);
+	list-style-image: url(images/struct.svg);
 }
 .navi_main .interface, .navi_inline .interface, .main_list_iface {
-	list-style-image: url(interface.svg);
+	list-style-image: url(images/interface.svg);
 }
 .navi_main .field, .navi_inline .field, .main_list_field {
-	list-style-image: url(field.svg);
+	list-style-image: url(images/field.svg);
 }
 .navi_main .class, .navi_inline .class, .main_list_cl {
-	list-style-image: url(class.svg);
+	list-style-image: url(images/class.svg);
 }
 .navi_main .enum, .navi_inline .enum, .main_list_en {
-	list-style-image: url(enum.svg);
+	list-style-image: url(images/enum.svg);
 }
 .navi_main .property, .navi_inline .property, .main_list_prop {
-	list-style-image: url(property.svg);
+	list-style-image: url(images/property.svg);
 }
 .navi_main .abstract_property, .navi_inline .abstract_property {
-	list-style-image: url(abstractproperty.svg);
+	list-style-image: url(images/abstractproperty.svg);
 }
 .navi_main .virtual_property, .navi_inline .virtual_property {
-	list-style-image: url(virtualproperty.svg);
+	list-style-image: url(images/virtualproperty.svg);
 }
 .navi_main .delegate, .navi_inline .delegate, .main_list_del {
-	list-style-image: url(delegate.svg);
+	list-style-image: url(images/delegate.svg);
 }
 .navi_main .signal, .navi_inline .signal, .main_list_sig {
-	list-style-image: url(signal.svg);
+	list-style-image: url(images/signal.svg);
 }
 .navi_main .package, .navi_inline .package {
-	list-style-image: url(package.svg);
+	list-style-image: url(images/package.svg);
 }
 .navi_main .constant, .navi_inline .constant {
-	list-style-image: url(constant.svg);
+	list-style-image: url(images/constant.svg);
 }
 
 
