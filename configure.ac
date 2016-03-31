@@ -114,6 +114,7 @@ src/libvaladoc/valadoc-1.0.pc
 src/libvaladoc/valadoc-1.0.deps
 src/Makefile
 icons/Makefile
+web-assets/Makefile
 doc/Makefile
 src/libvaladoc/Makefile
 src/driver/Makefile
@@ -128,6 +129,7 @@ src/driver/0.34.x/Makefile
 src/driver/0.36.x/Makefile
 src/doclets/Makefile
 src/doclets/html/Makefile
+src/doclets/html2/Makefile
 src/doclets/devhelp/Makefile
 src/doclets/gtkdoc/Makefile
 src/valadoc/Makefile
