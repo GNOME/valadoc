@@ -81,7 +81,7 @@ public abstract class Valadoc.Html.BasicDoclet : Api.Visitor, Doclet {
 	private const string css_diagram = "main_diagram";
 	private const string css_see_list = "main_see_list";
 	private const string css_wiki_table = "main_table";
-	private const string css_notification_area = "main_notification";
+	private const string css_notification_area = "main_notification_block";
 	private const string css_source_sample = "main_sourcesample";
 	private const string css_exception_table = "main_parameter_table";
 	private const string css_parameter_table_text = "main_parameter_table_text";

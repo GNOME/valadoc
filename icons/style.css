@@ -20,22 +20,6 @@ ul.external_link {
 	text-align: right;
 }
 
-.main_notification {
-	padding-right: 10px;
-	padding-left: 60px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	border-color: #aaaaff;
-	background-color: #eeeeff;
-	border-style: solid;
-	border-width: 1px;
-	margin: 10px;
-	min-height: 48px;
-	background-position: 6px 0.5em;
-	background-repeat: no-repeat;
-	background-image: url(warning.png);
-}
-
 .main_table {
 	border-collapse: collapse;
 	border: 1px solid #aaaaff;
