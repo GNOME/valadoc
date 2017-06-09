@@ -293,6 +293,9 @@ public class Valadoc.Importer.GirDocumentationImporter : DocumentationImporter {
 				parse_union ();
 			} else if (reader.name == "constant") {
 				parse_constant ();
+			} else if (reader.name == "attributes") {
+				debug ("attributes are ignored");
+				skip_element ();
 			} else {
 				// error
 				error ("unknown child element `%s' in `namespace'".printf (reader.name));
@@ -569,6 +572,9 @@ public class Valadoc.Importer.GirDocumentationImporter : DocumentationImporter {
 				parse_union ();
 			} else if (reader.name == "glib:signal") {
 				parse_signal ();
+			} else if (reader.name == "attributes") {
+				debug ("attributes are ignored");
+				skip_element ();
 			} else {
 				// error
 				error ("unknown child element `%s' in `class'".printf (reader.name));
@@ -603,6 +609,9 @@ public class Valadoc.Importer.GirDocumentationImporter : DocumentationImporter {
 				parse_method ("method");
 			} else if (reader.name == "glib:signal") {
 				parse_signal ();
+			} else if (reader.name == "attributes") {
+				debug ("attributes are ignored");
+				skip_element ();
 			} else {
 				// error
 				error ("unknown child element `%s' in `interface'".printf (reader.name));
@@ -801,6 +810,9 @@ public class Valadoc.Importer.GirDocumentationImporter : DocumentationImporter {
 				skip_element ();
 			} else if (reader.name == "union") {
 				parse_union ();
+			} else if (reader.name == "attributes") {
+				debug ("attributes are ignored");
+				skip_element ();
 			} else {
 				// error
 				error ("unknown child element `%s' in `class'".printf (reader.name));
@@ -835,6 +847,9 @@ public class Valadoc.Importer.GirDocumentationImporter : DocumentationImporter {
 				skip_element ();
 			} else if (reader.name == "record") {
 				parse_record ();
+			} else if (reader.name == "attributes") {
+				debug ("attributes are ignored");
+				skip_element ();
 			} else {
 				// error
 				error ("unknown child element `%s' in `union'".printf (reader.name));
