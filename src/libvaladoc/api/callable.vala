@@ -32,8 +32,6 @@ using Gee;
 public interface Valadoc.Api.Callable : Symbol {
 	/**
 	 * The return type of this symbol.
-	 *
-	 * @return The return type of this symbol or null for void
 	 */
 	public abstract TypeReference? return_type {
 		set;

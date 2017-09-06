@@ -51,8 +51,6 @@ public class Valadoc.Api.Field : Member {
 
 	/**
 	 * The field type.
-	 *
-	 * @return The field type or null for void
 	 */
 	public TypeReference? field_type {
 		set;

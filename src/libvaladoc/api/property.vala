@@ -61,8 +61,6 @@ public class Valadoc.Api.Property : Member {
 
 	/**
 	 * The property type.
-	 *
-	 * @return The property type or null for void
 	 */
 	public TypeReference? property_type {
 		set;
