@@ -260,8 +260,8 @@ public class Valadoc.CTypeResolver : Visitor {
 		register_symbol (parent_cname+":"+cname, item);
 
 
-		Collection<Interface> interfaces = null;
-		Collection<Class> classes = null;
+		Collection<Interface> interfaces;
+		Collection<Class> classes;
 
 		if (item.parent is Interface) {
 			interfaces = ((Api.Interface) item.parent).get_known_related_interfaces ();
@@ -269,6 +269,11 @@ public class Valadoc.CTypeResolver : Visitor {
 		} else if (item.parent is Class) {
 			interfaces = ((Api.Class) item.parent).get_known_derived_interfaces ();
 			classes = ((Api.Class) item.parent).get_known_child_classes ();
+		} else if (item.parent is Struct) {
+			// Properties are allowed here, similar to compact classes
+			return;
+		} else {
+			assert_not_reached ();
 		}
 
 		foreach (Interface iface in interfaces) {
