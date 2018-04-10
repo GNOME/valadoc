@@ -1,6 +1,6 @@
 dnl configure.in
 AC_PREREQ([2.65])
-AC_INIT([valadoc],[0.36.1],
+AC_INIT([valadoc],[0.36.2],
 	[https://bugzilla.gnome.org/browse.cgi?product=valadoc],
 	[valadoc],
 	[https://wiki.gnome.org/Projects/Valadoc])
