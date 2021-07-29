@@ -1,0 +1,6 @@
+NOTICE: valadoc got merged into Vala itself since 0.38.
+
+This repo was only needed for Vala <= 0.36, which is currently EOL. Please send
+your contributions to https://gitlab.gnome.org/GNOME/vala instead.
+
+See https://bugzilla.gnome.org/show_bug.cgi?id=782782 for more details.
